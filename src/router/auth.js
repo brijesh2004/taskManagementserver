@@ -11,7 +11,7 @@ router.use(
     cors({
       credentials:true,
     //   origin:[`${process.env.PATH}`],
-    origin:["http://localhost:3000"],
+    origin:["https://task-management-system-6ar7.onrender.com"],
       methods:['GET','POST','DELETE'],
       allowedHeaders: ["Content-Type", "Authorization"]
     })
